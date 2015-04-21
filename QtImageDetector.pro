@@ -13,8 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    imagehandler.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    imagehandler.h
 
 FORMS    += mainwindow.ui
+
+DISTFILES += \
+    bwb.jpg
+
+RESOURCES += \
+    resources.qrc
