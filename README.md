@@ -9,3 +9,5 @@ Graphical User Interface currently features a QGraphicsView widget for the viewi
 # Functionality
 
 Currently the only functionality is to read and display images navigated to via a file dialog interface.
+
+test.
